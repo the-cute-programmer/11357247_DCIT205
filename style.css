@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.department-logo img{
+    height: auto;
+    width: 250px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration:none;
+    margin: 0 1em;
+    color: #000;
+}
+nav a:hover{
+    color: blue;
+}
+
+section.hero {
+    text-align: center;
+  }
+  
+  section.hero img {
+    max-width: 100%;
+    height: auto;
+  }
+  .hero-image{
+    position: relative;
+  }
+  .hero-text{
+    position: absolute;
+    top: 75%;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+  .hero-text h3{
+   font-size: 40px;
+   font-weight: bold;
+  }
+  .hero button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #B5975D;
+    font-size: 14px;
+  }
+
+  /*Hero Ends*/
+
+
+
+  div.after-hero-text{
+    text-align: center;
+    padding: 100px;
+  }
+  div.after-hero-text h2{
+    font-size: 30px;
+  }
+  div.after-hero-text p{
+    font-size: 14px;
+    padding: 30px;
+  }
+  /*Mid-text ends*/
+
+  /*Admissions Section Begins*/
+ /* section.admission img{
+    width: 400px;
+    float: left;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .admission-image2-container{
+    content: "";
+    display: table;
+    clear: both;
+  }*/
+
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  .flex-image {
+    max-width: 40%;
+    margin-left: 20px;
+  }
+  .flex-container button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #B5975D;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+
+  /*Footer Styling*/
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info,
+  .social-media,
+  .address {
+    flex: 1;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 5px 0;
+  }
