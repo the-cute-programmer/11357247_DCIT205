@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.department-logo img{
+    height: auto;
+    width: 250px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration:none;
+    margin: 0 1em;
+    color: #000;
+}
+nav a:hover{
+    color: blue;
+}
+.container{
+    background-image: url(Images/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    max-width: 100%;
+    height: 500px;
+}
+.hero-text{
+    position: absolute;
+    top: 75%;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    text-align: center;
+    font-size: 40px;
+   font-weight: bold;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*Footer Styling*/
+ footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info,
+  .social-media,
+  .address {
+    flex: 1;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 5px 0;
+  }
