@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
 }
 header{
-    color: #000;
+    color: #333;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,24 +37,58 @@ nav a:hover{
 .container{
     background-image: url(Images/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
     max-width: 100%;
-    height: 500px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
 }
 .hero-text{
     position: absolute;
-    top: 75%;
+    top: 20%;
+    left: 35%;
     color: #fff;
     padding: 20px;
     text-align: left;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
    font-weight: bold;
+   color: #fff;
   }
+  div.after-hero-text{
+    text-align: center;
+    padding: 70px;
+  }
+  div.after-hero-text h4{
+    font-size: 30px;
+    color: #B5975D;
+  }
+  .flex-container a{
+    color: #153D6F;
+    font-size: 12px;
+  }
+  .flex-container a:hover{
+    text-decoration: underline;
+    color: #B5975D;
+  }
+
   .flex-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
     margin: 20px auto;
+    padding-bottom: 80px;
+  }
+  .flex-container h3{
+    color: #153D6F;
+    font-size: 30px;
+  }
+  .right-image{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 12px;
   }
   
   .flex-image {
