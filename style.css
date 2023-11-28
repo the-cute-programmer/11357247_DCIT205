@@ -126,13 +126,18 @@ section.hero {
     color: #153D6F;
     font-size: 30px;
   }
-  h6{
+  .right-image{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  p{
     font-size: 12px;
   }
   
   .flex-image {
     max-width: 40%;
-    margin-right: 60px;
+    margin-left: 20px;
   }
   .flex-container button{
     padding-top: 15px;
@@ -147,39 +152,64 @@ section.hero {
     font-size: 14px;
   }
   .programs-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 80%;
+    max-width: 1200px;
     margin: 20px auto;
-  }
-  
-  .program {
-    text-align: center;
-    max-width: 30%;
-  }
-  
-  .program img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
   }
   
-  .program h2 {
-    margin: 10px 0;
+  h2 {
+    text-align: center;
+    color: #333;
   }
   
-  .program p {
-    color: #666;
+  .program-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
   }
   
-  .program a {
-    display: block;
-    margin-top: 10px;
+  .program-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .program-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
     color: #007BFF;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .learn-more-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 15px;
     text-decoration: none;
+    border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .learn-more-link:hover {
+    background-color: #0056b3;
   }
 
 
