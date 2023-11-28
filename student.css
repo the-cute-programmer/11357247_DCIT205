@@ -1,10 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
 header{
     color: #333;
     display: flex;
@@ -48,7 +49,6 @@ nav a:hover{
     color: #fff;
     padding: 20px;
     text-align: left;
-    text-align: center;
     font-size: 60px;
    font-weight: bold;
    color: #fff;
@@ -131,9 +131,9 @@ nav a:hover{
 
 
 
- /*Footer Styling*/
- footer {
-    background-color: #333;
+  /*Footer Styling*/
+  footer {
+    background-color: #153D6F;
     color: white;
     padding: 20px 0;
   }
@@ -151,16 +151,19 @@ nav a:hover{
     flex: 1;
   }
   
-  h3 {
+  footer h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
+    color: #B5975D;
   }
   
-  p {
+  footer p {
     margin: 0;
+    padding: 8px;
+    color: #fff;
   }
   
-  a {
+  footer a {
     text-decoration: none;
     color: white;
     display: block;
